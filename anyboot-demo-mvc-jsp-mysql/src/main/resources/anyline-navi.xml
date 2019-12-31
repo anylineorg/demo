@@ -18,8 +18,8 @@
 		<!-- 用户端指定当前第几页的key -->
 		<!-- 加载更多格式 -->
 		<property key="STYLE_LOAD_MORE_FORMAT"></property>
-		<property key="STYLE_FILE_PATH">//file.qnlm.ac/plugin/navi/navi.css</property>
-		<property key="SCRIPT_FILE_PATH">//file.qnlm.ac/plugin/navi/navi.js</property>
+		<property key="STYLE_FILE_PATH">//alcdn.oss-cn-shanghai.aliyuncs.com/plugin/v1_23/navi/navi.css</property>
+		<property key="SCRIPT_FILE_PATH">//alcdn.oss-cn-shanghai.aliyuncs.com/plugin/v1_23/navi/navi.js</property>
 		
 		<property key="VAR_SHOW_BUTTON">true</property>
 		<property key="VAR_SHOW_INDEX_ELLIPSIS">true</property>
