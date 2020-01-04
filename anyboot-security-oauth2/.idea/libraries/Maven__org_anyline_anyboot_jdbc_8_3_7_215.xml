@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.anyline:anyboot-jdbc:8.3.7.215">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/anyline/anyboot-jdbc/8.3.7.215/anyboot-jdbc-8.3.7.215.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/anyline/anyboot-jdbc/8.3.7.215/anyboot-jdbc-8.3.7.215-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/anyline/anyboot-jdbc/8.3.7.215/anyboot-jdbc-8.3.7.215-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

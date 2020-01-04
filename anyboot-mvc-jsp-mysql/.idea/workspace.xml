@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="anyboot-mvc-jsp-mysql:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="329566f0-fa8e-48e2-870b-bb7a706d4d03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anyboot-security-oauth2/anyboot-security-oauth2-server/src/main/java/org/anyboot/security/oauth2/config/AuthorizationServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anyboot-security-oauth2/anyboot-security-oauth2-server/src/main/java/org/anyboot/security/oauth2/config/WebSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anyboot-security-oauth2/anyboot-security-oauth2-server/src/main/java/org/anyboot/security/oauth2/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anyboot-security-oauth2/anyboot-security-oauth2-server/src/main/java/org/anyline/util/ConfigTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anyboot-security-oauth2/anyboot-security-oauth2-server/src/main/resources/anyline-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anyboot-security-oauth2/anyboot-security-oauth2-server/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anyboot-security-oauth2/anyboot-security-oauth2-server/src/main/resources/sql/user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/java/org/anyboot/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/java/org/anyboot/start/common/BasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/java/org/anyboot/start/common/BasicJSONController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/java/org/anyboot/start/common/BasicWebController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/java/org/anyboot/start/json/home/controller/DefaultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/java/org/anyboot/start/web/home/controller/AppController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/java/org/anyboot/start/web/home/controller/BasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/java/org/anyboot/start/web/home/controller/DefaultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/resources/anyline-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/resources/anyline-navi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/resources/key.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/webapp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/webapp/WEB-INF/web/home/inc/bottom.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/webapp/WEB-INF/web/home/inc/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/webapp/WEB-INF/web/home/page/app/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/webapp/WEB-INF/web/home/page/app/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/webapp/WEB-INF/web/home/page/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/webapp/WEB-INF/web/home/template/data/app/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/webapp/WEB-INF/web/home/template/layout/default.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/target/classes/anyline-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/target/classes/anyline-navi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/target/classes/key.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/target/classes/org/anyboot/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/target/classes/org/anyboot/start/common/BasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/target/classes/org/anyboot/start/common/BasicJSONController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/target/classes/org/anyboot/start/common/BasicWebController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/target/classes/org/anyboot/start/json/home/controller/DefaultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/target/classes/org/anyboot/start/web/home/controller/AppController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/target/classes/org/anyboot/start/web/home/controller/BasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-mvc-jsp-mysql/target/classes/org/anyboot/start/web/home/controller/DefaultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-security/anyboot-demo-security-dependency/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-security/anyboot-demo-security-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-security/anyboot-demo-security-server/src/main/java/org/anyboot/security/server/ServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-security/anyboot-demo-security-server/src/main/java/org/anyboot/security/server/config/AuthorizationServerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-security/anyboot-demo-security-server/src/main/java/org/anyboot/security/server/config/WebSecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-security/anyboot-demo-security-server/src/main/java/org/anyboot/security/server/service/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-security/anyboot-demo-security-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-demo-security/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-security-oauth2/anyboot-security-oauth2-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../anyboot-security-oauth2/anyboot-security-oauth2-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anyboot-security-oauth2/anyboot-security-oauth2-server/src/main/java/org/anyboot/security/oauth2/OAuth2ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anyboot-security-oauth2/anyboot-security-oauth2-server/src/main/java/org/anyboot/security/oauth2/OAuth2ServerApplication.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/anyboot/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/org/anyline/anyline-core/8.3.7/anyline-core-8.3.7.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>myql.</find>
+      <find>anyboot.jdbc.version</find>
+      <find>jdbc-url</find>
+      <find>spring.version</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>jdbcUrl</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/anyboot/ConfigExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anyboot/start/common/BasicController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anyboot/start/common/BasicJSONController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anyboot/start/common/BasicWebController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anyboot/start/web/home/controller/AppController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anyboot/start/web/home/controller/BasicController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anyboot/start/json/home/controller/DefaultController.java" />
+        <option value="$MAVEN_REPOSITORY$/org/anyline/anyboot-jdbc/8.3.7.213/anyboot-jdbc-8.3.7.213.pom" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anyboot/start/web/home/controller/DefaultController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/anyboot/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\develop\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="anyboot-mvc-jsp-mysql" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="anyboot-mvc-jsp-mysql" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="158" />
+    <option name="y" value="561" />
+    <option name="width" value="1440" />
+    <option name="height" value="828" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="anyboot-mvc-jsp-mysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anyboot-mvc-jsp-mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anyboot-mvc-jsp-mysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anyboot-mvc-jsp-mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anyboot-mvc-jsp-mysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anyboot-mvc-jsp-mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anyboot-mvc-jsp-mysql" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anyboot-mvc-jsp-mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\idea_project\anyboot-demo-mvc\src\main" />
+      <recent name="D:\develop\idea_project\anyboot-demo-mvc\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="anyboot-mvc-jsp-mysql" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.anyboot.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="329566f0-fa8e-48e2-870b-bb7a706d4d03" name="Default Changelist" comment="" />
+      <created>1577774990730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577774990730</updated>
+      <workItem from="1577774994346" duration="7164000" />
+      <workItem from="1577782559628" duration="14000" />
+      <workItem from="1577783158789" duration="718000" />
+      <workItem from="1577796984844" duration="2485000" />
+      <workItem from="1577851706668" duration="1244000" />
+      <workItem from="1577871631249" duration="1075000" />
+      <workItem from="1577925528284" duration="5461000" />
+      <workItem from="1577947123860" duration="4264000" />
+    </task>
+    <task id="LOCAL-00001" summary="2.1.5">
+      <created>1577872046150</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577872046150</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22425000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32839224" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997722" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295325" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.2761194" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32839224" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997722" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295325" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.2761194" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2.1.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.1.5" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/anyline-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web/home/inc/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anyboot/ConfigExample.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anyboot/start/json/home/controller/DefaultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/anyline/anyboot-mvc/8.3.7.211/anyboot-mvc-8.3.7.211-sources.jar!/org/anyboot/mvc/controller/impl/TemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anyboot/start/web/home/controller/BasicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anyboot/start/common/BasicJSONController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anyboot/start/common/BasicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anyboot/start/common/BasicWebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anyboot/start/web/home/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/2.1.3.RELEASE/spring-boot-starter-jdbc-2.1.3.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/anyline/anyline-jdbc-mysql/8.3.7/anyline-jdbc-mysql-8.3.7.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/anyline/anyboot-jdbc/8.3.7.213/anyboot-jdbc-8.3.7.213.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar!/com/zaxxer/hikari/HikariConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11310">
+          <caret line="537" selection-start-line="537" selection-end-line="537" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar!/com/zaxxer/hikari/HikariDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.5.RELEASE/spring-jdbc-5.1.5.RELEASE.jar!/org/springframework/jdbc/datasource/lookup/AbstractRoutingDataSource.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/anyline/anyline-jdbc/8.3.7/anyline-jdbc-8.3.7-sources.jar!/org/anyline/dao/impl/springjdbc/AnylineDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="545" selection-start-line="545" selection-end-line="545" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anyboot/start/web/home/controller/DefaultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/anyline/anyboot-start-mvc-jsp-mysql/8.3.7.213/anyboot-start-mvc-jsp-mysql-8.3.7.213.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/anyline/anyboot-start-mvc-jsp/8.3.7.213/anyboot-start-mvc-jsp-8.3.7.213.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/anyline/anyboot-start-mvc/8.3.7.213/anyboot-start-mvc-8.3.7.213.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/anyline/anyboot-start/8.3.7.213/anyboot-start-8.3.7.213.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/anyline/anyboot-dependency/8.3.7.213/anyboot-dependency-8.3.7.213.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.1.3.RELEASE/spring-boot-starter-parent-2.1.3.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.3.RELEASE/spring-boot-dependencies-2.1.3.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="185" column="38" selection-start-line="185" selection-start-column="38" selection-end-line="185" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/anyline/anyline-core/8.3.7/anyline-core-8.3.7.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/anyboot/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/org.anyboot:anyboot-mvc-jsp-mysql:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>org.anyboot:anyboot-mvc-jsp-mysql:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">org.anyboot:anyboot-mvc-jsp-mysql:1.0-SNAPSHOT</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/org.anyline:anyline-core:jar:8.3.7</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/org.anyline:anyline-core:jar:8.3.7/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/org.anyline:anyline-core:jar:8.3.7/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/org.anyline:anyline-core:jar:8.3.7/ch.qos.logback:logback-access:jar:1.2.3</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/org.anyline:anyline-core:jar:8.3.7/com.alibaba:fastjson:jar:1.2.62</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/org.anyline:anyline-core:jar:8.3.7/org.dom4j:dom4j:jar:2.1.1</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/org.anyline:anyline-core:jar:8.3.7/org.apache.oro:com.springsource.org.apache.oro:jar:2.0.8</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/org.anyline:anyline-core:jar:8.3.7/commons-io:commons-io:jar:2.6</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/org.anyline:anyline-core:jar:8.3.7/javax.persistence:persistence-api:jar:1.0.2</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/org.springframework:spring-web:jar:4.3.23.RELEASE</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/org.springframework:spring-jdbc:jar:4.3.23.RELEASE</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/org.springframework:spring-jdbc:jar:4.3.23.RELEASE/org.springframework:spring-tx:jar:4.3.23.RELEASE</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/net.sf.ehcache:ehcache:jar:2.10.6</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/ognl:ognl:jar:3.2.10</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/ognl:ognl:jar:3.2.10/org.javassist:javassist:jar:3.24.1-GA</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/org.springframework:spring-context:jar:4.3.23.RELEASE</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.anyline:anyline-jdbc:jar:8.3.7/org.springframework:spring-context:jar:4.3.23.RELEASE/org.springframework:spring-expression:jar:4.3.23.RELEASE</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.anyline:anyboot-jdbc:jar:8.3.7.215/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.5.RELEASE/com.zaxxer:HikariCP:jar:3.2.0</node>
+            <node x="" y="">org.anyline:anyline-jdbc-mysql:jar:8.3.7</node>
+            <node x="" y="">org.anyline:anyline-jdbc-mysql:jar:8.3.7/mysql:mysql-connector-java:jar:5.1.24</node>
+            <node x="" y="">org.apache.tomcat.embed:tomcat-embed-jasper:jar:9.0.19</node>
+            <node x="" y="">org.apache.tomcat.embed:tomcat-embed-jasper:jar:9.0.19/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.19</node>
+            <node x="" y="">org.apache.tomcat.embed:tomcat-embed-jasper:jar:9.0.19/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.19/org.apache.tomcat:tomcat-annotations-api:jar:9.0.19</node>
+            <node x="" y="">org.apache.tomcat.embed:tomcat-embed-jasper:jar:9.0.19/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.19</node>
+            <node x="" y="">org.apache.tomcat.embed:tomcat-embed-jasper:jar:9.0.19/org.eclipse.jdt:ecj:jar:3.16.0</node>
+            <node x="" y="">javax.servlet:jstl:jar:1.1.2</node>
+            <node x="" y="">taglibs:standard:jar:1.1.2</node>
+            <node x="" y="">org.anyline:anyboot-mvc:jar:8.3.7.215</node>
+            <node x="" y="">org.anyline:anyboot-mvc:jar:8.3.7.215/org.anyline:anyline-mvc:jar:8.3.7</node>
+            <node x="" y="">org.anyline:anyboot-mvc:jar:8.3.7.215/org.anyline:anyline-mvc:jar:8.3.7/org.anyline:anyline-web:jar:8.3.7</node>
+            <node x="" y="">org.anyline:anyboot-mvc:jar:8.3.7.215/org.anyline:anyline-mvc:jar:8.3.7/org.anyline:anyline-web:jar:8.3.7/org.anyline:anyline-net:jar:8.3.7</node>
+            <node x="" y="">org.anyline:anyboot-mvc:jar:8.3.7.215/org.anyline:anyline-mvc:jar:8.3.7/org.anyline:anyline-web:jar:8.3.7/org.anyline:anyline-net:jar:8.3.7/commons-net:commons-net:jar:3.6</node>
+            <node x="" y="">org.anyline:anyboot-mvc:jar:8.3.7.215/org.anyline:anyline-mvc:jar:8.3.7/org.anyline:anyline-web:jar:8.3.7/org.anyline:anyline-net:jar:8.3.7/org.apache.httpcomponents:httpclient:jar:4.5</node>
+            <node x="" y="">org.anyline:anyboot-mvc:jar:8.3.7.215/org.anyline:anyline-mvc:jar:8.3.7/org.anyline:anyline-web:jar:8.3.7/org.anyline:anyline-net:jar:8.3.7/org.apache.httpcomponents:httpclient:jar:4.5/org.apache.httpcomponents:httpcore:jar:4.4.11</node>
+            <node x="" y="">org.anyline:anyboot-mvc:jar:8.3.7.215/org.anyline:anyline-mvc:jar:8.3.7/org.anyline:anyline-web:jar:8.3.7/org.anyline:anyline-net:jar:8.3.7/org.apache.httpcomponents:httpclient:jar:4.5/commons-codec:commons-codec:jar:1.11</node>
+            <node x="" y="">org.anyline:anyboot-mvc:jar:8.3.7.215/org.anyline:anyline-mvc:jar:8.3.7/org.anyline:anyline-web:jar:8.3.7/org.anyline:anyline-net:jar:8.3.7/org.apache.httpcomponents:httpmime:jar:4.5</node>
+            <node x="" y="">org.anyline:anyboot-mvc:jar:8.3.7.215/org.anyline:anyline-mvc:jar:8.3.7/org.anyline:anyline-web:jar:8.3.7/org.anyline:anyline-net:jar:8.3.7/commons-httpclient:commons-httpclient:jar:3.1</node>
+            <node x="" y="">org.anyline:anyboot-mvc:jar:8.3.7.215/org.anyline:anyline-mvc:jar:8.3.7/org.anyline:anyline-web:jar:8.3.7/org.anyline:anyline-net:jar:8.3.7/commons-httpclient:commons-httpclient:jar:3.1/commons-logging:commons-logging:jar:1.0.4</node>
+            <node x="" y="">org.anyline:anyboot-mvc:jar:8.3.7.215/org.anyline:anyline-mvc:jar:8.3.7/org.anyline:anyline-web:jar:8.3.7/org.anyline:anyline-net:jar:8.3.7/com.jcraft:jsch:jar:0.1.55</node>
+            <node x="" y="">org.anyline:anyboot-mvc:jar:8.3.7.215/org.anyline:anyline-mvc:jar:8.3.7/org.springframework:spring-webmvc:jar:4.3.23.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.5.RELEASE/org.springframework:spring-aop:jar:4.3.23.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.5.RELEASE/org.springframework:spring-aop:jar:4.3.23.RELEASE/org.springframework:spring-beans:jar:4.3.23.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-aop:jar:2.1.5.RELEASE/org.aspectj:aspectjweaver:jar:1.9.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.5.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.5.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.5.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.5.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework:spring-core:jar:4.3.23.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework:spring-core:jar:4.3.23.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.3482649842271288" x="934.7089377632198" y="284.8362189985963" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>anyboot-mvc-jsp-mysql:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>anyboot-mvc-jsp-mysql</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
