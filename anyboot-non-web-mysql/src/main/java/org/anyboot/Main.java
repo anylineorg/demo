@@ -33,6 +33,7 @@ public class Main implements CommandLineRunner {
 
     public static void main(String[] args) {
         ApplicationContext context = SpringApplication.run(Main.class, args);
-
+        AnylineService service = context.getBean(AnylineService.class);
+        service.querys("api_config");
     }
 }
