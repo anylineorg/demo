@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<config key="default">
+		<!-- 数据统计格式 -->
+		<property key="STYLE_STAT_FORMAT"></property>
+		<!-- 跳转到格式 -->
+		<property key="STYLE_LABEL_JUMP"></property>
+
+		<!-- 下标数量 -->
+		<property key="VAR_PAGE_RANGE">5</property>
+		<!-- 显示下标 -->
+		<property key="VAR_SHOW_INDEX">true</property>
+		<!-- 显示数据统计 -->
+		<property key="VAR_SHOW_STAT">true</property>
+		<!-- 跳转到 -->
+		<property key="VAR_SHOW_JUMP">false</property>
+		<!-- 用户端指定每页多少条的key -->
+		<!-- 用户端指定当前第几页的key -->
+		<!-- 加载更多格式 -->
+		<property key="STYLE_LOAD_MORE_FORMAT"></property>
+		<property key="STYLE_FILE_PATH">//alcdn.oss-cn-shanghai.aliyuncs.com/plugin/v1_23/navi/navi.css</property>
+		<property key="SCRIPT_FILE_PATH">//alcdn.oss-cn-shanghai.aliyuncs.com/plugin/v1_23/navi/navi.js</property>
+		
+		<property key="VAR_SHOW_BUTTON">true</property>
+		<property key="VAR_SHOW_INDEX_ELLIPSIS">true</property>
+		
+		<!-- 允许用户设置每页多少条 -->
+		<property key="VAR_PAGE_DEFAULT_VOL">20</property>
+		<!--  -->
+		<property key="VAR_CLIENT_SET_VOL_ENABLE">true</property>
+		<!-- 每页多少条上限 -->
+		<property key="VAR_PAGE_MAX_VOL">100</property>
+		<property key="VAR_PAGE_VOL_NUMBERS">10,20,30,50,100,300,500,1000</property>
+	</config>
+</configs>
