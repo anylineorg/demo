@@ -1,8 +1,0 @@
-org\anyboot\start\json\home\controller\DefaultController.class
-org\anyboot\start\web\home\controller\AppController.class
-org\anyboot\start\common\BasicController.class
-org\anyboot\start\web\home\controller\BasicController.class
-org\anyboot\start\common\BasicWebController.class
-org\anyboot\start\common\BasicJSONController.class
-org\anyboot\start\web\home\controller\DefaultController.class
-org\anyboot\Main.class
