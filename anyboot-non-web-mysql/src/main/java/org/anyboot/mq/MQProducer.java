@@ -1,4 +1,4 @@
-package org.anyboot;
+package org.anyboot.mq;
 
 import org.anyline.util.DateUtil;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;

@@ -1,4 +1,4 @@
-package org.anyboot;
+package org.anyboot.mq;
 
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
@@ -14,6 +14,7 @@ import java.util.List;
 
 @Component
 @RocketMQMessageListener(topic = "${rocketmq.config.queue.topic.test.key}",consumerGroup = "hello-rocketmq-group-rocket")
+//@RocketMQTransactionListener
 public class MQConsumer implements RocketMQListener<String>{
 
 	@Override
