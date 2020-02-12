@@ -1,15 +1,27 @@
 package org.anyboot;
 
-import java.util.List;
-
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
 import org.apache.rocketmq.client.consumer.listener.MessageListenerConcurrently;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.common.message.MessageExt;
+import org.apache.rocketmq.spring.annotation.RocketMQMessageListener;
+import org.apache.rocketmq.spring.core.RocketMQListener;
+import org.springframework.stereotype.Component;
 
-public class MQConsumer {
+import java.util.List;
+
+@Component
+@RocketMQMessageListener(topic = "${rocketmq.config.queue.topic.test.key}",consumerGroup = "hello-rocketmq-group-rocket")
+public class MQConsumer implements RocketMQListener<String>{
+
+	@Override
+	public void onMessage(String msg) {
+		System.out.println("consumer:"+msg);
+	}
+
+
 	public static void main(String[] args) throws InterruptedException, MQClientException {
 
 		DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("sso_consumer");

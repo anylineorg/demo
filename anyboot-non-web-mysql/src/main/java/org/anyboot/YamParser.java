@@ -1,15 +1,10 @@
 package org.anyboot;
 
-import org.anyline.util.BasicUtil;
-import org.anyline.util.BeanUtil;
 import org.yaml.snakeyaml.Yaml;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;
-import java.util.HashMap;
-import java.util.Iterator;
 import java.util.LinkedHashMap;
-import java.util.Map;
 
 public class YamParser {
     public static void loadConfig() throws FileNotFoundException {
@@ -32,6 +27,6 @@ public class YamParser {
         //加载运行配置文件
         loadConfig();
 
-        System.out.println(BeanUtil.value(map,"spring.s"));
+        //System.out.println(BeanUtil.value(map,"spring.s"));
     }
 }

@@ -1,14 +1,37 @@
 package org.anyboot;
 
+import org.anyline.util.DateUtil;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
 import org.apache.rocketmq.client.producer.SendResult;
-import org.apache.rocketmq.remoting.common.RemotingHelper;
 import org.apache.rocketmq.common.message.Message;
+import org.apache.rocketmq.remoting.common.RemotingHelper;
+import org.apache.rocketmq.spring.core.RocketMQTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
-public class MQProducer {
+@Component
+public class MQProducer implements CommandLineRunner {
+    @Autowired
+    private RocketMQTemplate rocketMQTemplate;
+
+    @Value("${rocketmq.config.queue.topic.test.key}")
+    private String topicKey;
+
+    @Override
+    public void run(String... args) throws Exception {
+        System.out.println("[start produce]");
+        int cnt = 0;
+        while (cnt<=9){
+            rocketMQTemplate.convertAndSend(topicKey,"hello rocketmq"+ DateUtil.now());
+            cnt++;
+        }
+        System.out.println("[end produce]");
+    }
     public static void main(String[] args) throws Exception{
         DefaultMQProducer producer = new DefaultMQProducer("hr_producer");
-        producer.setNamesrvAddr("192.168.9.10:9876");
+        producer.setNamesrvAddr("127.0.0.1:9876");
         //Launch the instance.
         producer.start();
         for (int i = 0; i < 100; i++) {
