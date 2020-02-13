@@ -16,7 +16,6 @@ import java.util.List;
 @RocketMQMessageListener(topic = "${rocketmq.config.queue.topic.test.key}",consumerGroup = "hello-rocketmq-group-rocket")
 //@RocketMQTransactionListener
 public class MQConsumer implements RocketMQListener<String>{
-
 	@Override
 	public void onMessage(String msg) {
 		System.out.println("consumer:"+msg);
