@@ -1,6 +1,5 @@
 package org.anyboot.mq;
 
-import org.anyline.util.DateUtil;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
 import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.common.message.Message;
@@ -24,21 +23,22 @@ public class MQProducer implements CommandLineRunner {
         System.out.println("[start produce]");
         int cnt = 0;
         while (cnt<=9){
-            rocketMQTemplate.convertAndSend(topicKey,"hello rocketmq"+ DateUtil.now());
+            rocketMQTemplate.convertAndSend(topicKey,"hello rocketmq:"+ cnt);
             cnt++;
         }
         System.out.println("[end produce]");
     }
     public static void main(String[] args) throws Exception{
-        DefaultMQProducer producer = new DefaultMQProducer("hr_producer");
-        producer.setNamesrvAddr("127.0.0.1:9876");
+        DefaultMQProducer producer = new DefaultMQProducer("test_producer");
+        producer.setNamesrvAddr("10.16.242.63:9876");
         //Launch the instance.
+        producer.setSendMsgTimeout(10000);
         producer.start();
         for (int i = 0; i < 100; i++) {
             //Create a message instance, specifying topic, tag and message body.
-            Message msg = new Message("topic_user",
+            Message msg = new Message("topic_test",
                     "tag_update",
-                    ("{user:uid"+i+",tel:15800000000"+i+"}").getBytes(RemotingHelper.DEFAULT_CHARSET) /* Message body */
+                    ("{user1:uid"+i+",tel:15800000000"+i+"}").getBytes(RemotingHelper.DEFAULT_CHARSET) /* Message body */
             );
             //Call send message to deliver message to one of brokers.
             SendResult sendResult = producer.send(msg);
